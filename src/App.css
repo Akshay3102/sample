@@ -1,0 +1,77 @@
+.App {
+  position: relative;
+}
+.button_container{
+  text-align: center;
+  padding: 5px ;
+ 
+}
+.create_button{
+  background-color: yellow;
+  border-radius: 50px;
+  border: solid;
+  padding: 10px;
+  font-weight: bold;
+}
+.delete_button{
+  background-color: red;
+}
+.update_button{
+  background-color:green;
+}
+.p1_container{
+  width: 20%;
+  height: 40%;
+  /* position: relative; */
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color:#61dafb ;
+  left: 50%;
+  top: 40%;
+
+}
+.p1_base{
+  position: absolute;
+  top: 20%;
+}
+.list_content{
+  list-style: none;
+  font-size: 1rem;
+  padding: 2px;
+  
+}
+
+
+
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
